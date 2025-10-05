@@ -44,12 +44,14 @@ CREATE TABLE HISTORICO_OPERACOES (
 
 5. Crie o arquivo de configuração:
 Na raiz do projeto, crie um arquivo chamado config.py. Este arquivo não será enviado para o GitHub e conterá suas credenciais de acesso.
+
 config.py:
+
 ORACLE_USER = "seu_rm_aqui"
 ORACLE_PASSWORD = "sua_senha_aqui"
 
 
-6. Execute o programa:
+7. Execute o programa:
 python main.py
 
 
