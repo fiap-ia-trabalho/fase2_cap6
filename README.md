@@ -40,18 +40,14 @@ CREATE TABLE HISTORICO_OPERACOES (
     TEMPO_CICLO_MIN NUMBER
 );
 
-4. Crie o arquivo de configuração:
+5. Crie o arquivo de configuração:
 Na raiz do projeto, crie um arquivo chamado config.py. Este arquivo não será enviado para o GitHub e conterá suas credenciais de acesso.
 
 config.py:
-
-# Suas credenciais da FIAP
 ORACLE_USER = "seu_rm_aqui"
 ORACLE_PASSWORD = "sua_senha_aqui"
 
 5. Execute o programa:
-Finalmente, execute o arquivo principal.
-
 python main.py
 
 👥 Autores
