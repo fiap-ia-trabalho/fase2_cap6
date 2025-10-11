@@ -1,4 +1,4 @@
-# Ignorar ficheiro com dados sensíveis
+# Ignorar ficheiros com dados sensíveis e cache
 config.py
-
+__pycache__
 
