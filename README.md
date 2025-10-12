@@ -18,6 +18,13 @@
 
 + RAFAELA_TORRES_MARTINS_RM567735
 
+## 👩‍🏫 Professores:
+### Tutor(a)
++ Nome do Tutor
+
+### Coordenador(a)
++ Nome do Coordenador
+
 ## 📜 Descrição
 O agronegócio da cana-de-açúcar no Brasil enfrenta perdas significativas durante a colheita mecanizada. Um dos principais problemas é a falta de sincronia entre as colheitadeiras e os caminhões de transporte.
 
