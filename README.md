@@ -1,31 +1,31 @@
-<div align="center">
-<h1>FIAP - Faculdade de Informática e Administração Paulista</h1>
-<img src="./assets/logo-fiap.png" alt="Logo da FIAP" width="400"/>
-</div>
+# FIAP - Faculdade de Informática e Administração Paulista
 
-# Projeto AgroSync: Otimizador de Colheita de Cana-de-Açúcar
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
+
+<br>
+
+# Nome do projeto: AgroSync - Otimizador de Colheita de Cana-de-Açúcar
+
+## Nome do grupo
+
+## 👨‍🎓 Integrantes: 
+- <a href="https://www.linkedin.com/company/inova-fusca">CAUAN_OTTO_RODRIGUES_SOUSA_RM567940</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">FERNANDO_ARAUJO_GURGEL_RM567606</a>
+- <a href="https://www.linkedin.com/in/iraci-souza-bab42034">IRACI_MONTEIRO_SOUZA_RM567544</a> 
+- <a href="https://www.linkedin.com/company/inova-fusca">MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659</a> 
+- <a href="https://www.linkedin.com/company/inova-fusca">RAFAELA_TORRES_MARTINS_RM567735</a>
+
+## 👩‍🏫 Professores:
+### Tutor(a) 
+- <a href="https://www.linkedin.com/company/inova-fusca">ANA_CRISTINA_DOS_SANTOS</a>
+### Coordenador(a)
+- <a href="https://www.linkedin.com/in/andregodoichiovato/)">Andre_Godoi</a>)
 
 ## Projeto acadêmico para a disciplina de Python da FIAP, focado em resolver um problema de logística no agronegócio da cana-de-Açúcar.
 
-## 👨‍🎓 Integrantes:
-+ CAUAN_OTTO_RODRIGUES_SOUSA_RM567940
-
-+ FERNANDO_ARAUJO_GURGEL_RM567606
-
-+ IRACI_MONTEIRO_SOUZA_RM567544
-
-+ MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659
-
-+ RAFAELA_TORRES_MARTINS_RM567735
-
-## 👩‍🏫 Professores:
-### Tutor(a)
-+ Nome do Tutor
-
-### Coordenador(a)
-+ Nome do Coordenador
-
-## 📜 Descrição
+### 🎯 Objetivo
 O agronegócio da cana-de-açúcar no Brasil enfrenta perdas significativas durante a colheita mecanizada. Um dos principais problemas é a falta de sincronia entre as colheitadeiras e os caminhões de transporte.
 
 Este projeto visa resolver essa "dor" através de um software simples que calcula e sugere o número ideal de caminhões para uma frente de colheita, minimizando o tempo ocioso das máquinas e reduzindo perdas operacionais.
@@ -37,7 +37,7 @@ Este projeto visa resolver essa "dor" através de um software simples que calcul
 
 + Biblioteca Python: oracledb
 
-## 🔧 Como executar o código
+### 🚀 Como Executar o Projeto
 Para rodar este projeto, siga os passos abaixo.
 
 *1. Clone o repositório:*
@@ -83,6 +83,14 @@ ORACLE_PASSWORD = "sua_senha_aqui"
 ```python
 python main.py
 ```
-## 📋 Licença
-MODELO GIT FIAP por Fiap está licenciado sobre Attribution 4.0 International.
 
+### 👥 Autores
++ CAUAN_OTTO_RODRIGUES_SOUSA_RM567940
+
++ FERNANDO_ARAUJO_GURGEL_RM567606
+
++ IRACI_MONTEIRO_SOUZA_RM567544
+
++ MARIA_LUISA_RODRIGUES_NASCIMENTO
+
++ RAFAELA_TORRES_MARTINS_RM567735
