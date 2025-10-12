@@ -8,22 +8,19 @@
 ## Projeto acadêmico para a disciplina de Python da FIAP, focado em resolver um problema de logística no agronegócio da cana-de-Açúcar.
 
 ## 👨‍🎓 Integrantes:
-+ CAUAN_OTTO_RODRIGUES_SOUSA_RM567940
 
-+ FERNANDO_ARAUJO_GURGEL_RM567606
-
-+ IRACI_MONTEIRO_SOUZA_RM567544
-
-+ MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659
-
-+ RAFAELA_TORRES_MARTINS_RM567735
+- <a href="https://www.linkedin.com/company/inova-fusca">CAUAN_OTTO_RODRIGUES_SOUSA_RM567940</a>
+- <a href="https://www.linkedin.com/company/inova-fusca">FERNANDO_ARAUJO_GURGEL_RM567606</a>
+- <a href="https://www.linkedin.com/in/iraci-souza-bab42034">IRACI_MONTEIRO_SOUZA_RM567544</a> 
+- <a href="https://www.linkedin.com/company/inova-fusca">MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659</a> 
+- <a href="https://www.linkedin.com/company/inova-fusca">RAFAELA_TORRES_MARTINS_RM567735</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a)
-+ Nome do Tutor
+- <a href="https://www.linkedin.com/company/inova-fusca">ANA_CRISTINA_DOS_SANTOS</a>
 
 ### Coordenador(a)
-+ Nome do Coordenador
+- <a href="https://www.linkedin.com/in/andregodoichiovato)">Andre_Godoi</a>
 
 ## 📜 Descrição
 O agronegócio da cana-de-açúcar no Brasil enfrenta perdas significativas durante a colheita mecanizada. Um dos principais problemas é a falta de sincronia entre as colheitadeiras e os caminhões de transporte.
