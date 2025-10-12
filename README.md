@@ -1,6 +1,6 @@
 # FIAP - Faculdade de Informática e Administração Paulista
 
-![Texto Alternativo](assets/logo-fiap.png)
+<img src="./assets/logo-fiap.png" alt="Logo da FIAP" width="400"/>
 
 # Projeto AgroSync: Otimizador de Colheita de Cana-de-Açúcar
 
