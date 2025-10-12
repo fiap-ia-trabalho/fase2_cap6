@@ -1,8 +1,23 @@
+# FIAP - Faculdade de Informática e Administração Paulista
+
+![Texto Alternativo](assets/logo-fiap.png)
+
 # Projeto AgroSync: Otimizador de Colheita de Cana-de-Açúcar
 
 ## Projeto acadêmico para a disciplina de Python da FIAP, focado em resolver um problema de logística no agronegócio da cana-de-Açúcar.
 
-### 🎯 Objetivo
+## 👨‍🎓 Integrantes:
++ CAUAN_OTTO_RODRIGUES_SOUSA_RM567940
+
++ FERNANDO_ARAUJO_GURGEL_RM567606
+
++ IRACI_MONTEIRO_SOUZA_RM567544
+
++ MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659
+
++ RAFAELA_TORRES_MARTINS_RM567735
+
+## 📜 Descrição
 O agronegócio da cana-de-açúcar no Brasil enfrenta perdas significativas durante a colheita mecanizada. Um dos principais problemas é a falta de sincronia entre as colheitadeiras e os caminhões de transporte.
 
 Este projeto visa resolver essa "dor" através de um software simples que calcula e sugere o número ideal de caminhões para uma frente de colheita, minimizando o tempo ocioso das máquinas e reduzindo perdas operacionais.
@@ -14,7 +29,7 @@ Este projeto visa resolver essa "dor" através de um software simples que calcul
 
 + Biblioteca Python: oracledb
 
-### 🚀 Como Executar o Projeto
+## 🔧 Como executar o código
 Para rodar este projeto, siga os passos abaixo.
 
 *1. Clone o repositório:*
@@ -60,14 +75,6 @@ ORACLE_PASSWORD = "sua_senha_aqui"
 ```python
 python main.py
 ```
+## 📋 Licença
 
-### 👥 Autores
-+ CAUAN_OTTO_RODRIGUES_SOUSA_RM567940
-
-+ FERNANDO_ARAUJO_GURGEL_RM567606
-
-+ IRACI_MONTEIRO_SOUZA_RM567544
-
-+ MARIA_LUISA_RODRIGUES_NASCIMENTO
-
-+ RAFAELA_TORRES_MARTINS_RM567735
+MODELO GIT FIAP por Fiap está licenciado sobre Attribution 4.0 International.
