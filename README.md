@@ -77,4 +77,17 @@ python main.py
 ```
 ## 📋 Licença
 
+<<<<<<< HEAD
 MODELO GIT FIAP por Fiap está licenciado sobre Attribution 4.0 International.
+=======
+### 👥 Autores
++ CAUAN_OTTO_RODRIGUES_SOUSA_RM567940
+
++ FERNANDO_ARAUJO_GURGEL_RM567606
+
++ IRACI_MONTEIRO_SOUZA_RM567544
+
++ MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659
+
++ RAFAELA_TORRES_MARTINS_RM567735
+>>>>>>> d4437b76c070502265cb2b353c2de0a36be2d4b2
