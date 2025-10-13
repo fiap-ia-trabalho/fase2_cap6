@@ -2,3 +2,17 @@
 config.py
 __pycache__
 
+# Diretórios de cache e arquivos temporários
+__pycache__/
+*.pyc
+
+# Variáveis de ambiente e credenciais locais
+.env
+config.py
+
+# Dados gerados pela aplicação
+data/*.json
+data/*.txt
+
+# Logs
+*.log
