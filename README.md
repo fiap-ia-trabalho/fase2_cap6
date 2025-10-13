@@ -105,11 +105,10 @@ Para rodar este projeto, siga os passos abaixo.
 git clone https://github.com/fiap-ia-trabalho/fase2_cap6
 cd fase2_cap6
 
-
-2️⃣ Instalar dependências (opcional, se Oracle for usado)
+### 2️⃣ Instalar dependências (opcional, se Oracle for usado)
 pip install -r requirements.txt
 
-3️⃣ Configurar o Banco de Dados (opcional)
+### 3️⃣ Configurar o Banco de Dados (opcional)
 
 Crie a tabela HISTORICO_OPERACOES no seu banco de dados Oracle:
 
@@ -133,7 +132,7 @@ ORACLE_PASSWORD = "sua_senha_aqui"
 ⚠️ O arquivo config.py contém credenciais locais e não deve ser versionado.
 Certifique-se de que ele está listado no .gitignore.
 
-4️⃣ Executar o programa
+### 4️⃣ Executar o programa
 python src/app.py
 
 🗃️ Persistência de Dados
@@ -144,7 +143,7 @@ data/relatorio.txt: relatório de operações legível em texto
 
 ---
 
-📊 Exemplo de Saída
+## 📊 Exemplo de Saída
 === AgroSync ===
 Colheitadeiras: 4
 Distância (km): 8
@@ -156,13 +155,13 @@ Descarga (min): 10
 
 ---
 
-🧰 Tecnologias Utilizadas
+## 🧰 Tecnologias Utilizadas
 
 . Linguagem: Python 3
 . Banco de Dados (opcional): Oracle
 . Bibliotecas: oracledb, json, os, datetime, typing
 
-📋 Licença
+## 📋 Licença
 
 MODELO GIT FIAP por FIAP está licenciado sob Attribution 4.0 International (CC BY 4.0).
 
