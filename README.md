@@ -10,7 +10,7 @@
 - <a href="https://www.linkedin.com/in/cauanotto">CAUAN_OTTO_RODRIGUES_SOUSA_RM567940</a>
 - <a href="https://www.linkedin.com/in/fernando-gurgel-75aa8369">FERNANDO_ARAUJO_GURGEL_RM567606</a>
 - <a href="https://www.linkedin.com/in/iraci-souza-bab42034">IRACI_MONTEIRO_SOUZA_RM567544</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659</a> 
+- <a href="https://www.linkedin.com/in/malu-rodrigues-bb756b271">MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659</a> 
 - <a href="https://www.linkedin.com/in/rafaela-torres222">RAFAELA_TORRES_MARTINS_RM567735</a>
 
 ## 👩‍🏫 Professores:
