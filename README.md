@@ -96,14 +96,14 @@ onde o **Tempo de Ciclo** inclui:
 ## 🔧 Como executar o código
 Para rodar este projeto, siga os passos abaixo.
 
-### 1️⃣ Clonar o repositório
+### 1 Clonar o repositório
 git clone https://github.com/fiap-ia-trabalho/fase2_cap6.git
 cd fase2_cap6
 
-### 2️⃣ Instalar dependências (opcional, se Oracle for usado)
+### 2 Instalar dependências (opcional, se Oracle for usado)
 pip install -r requirements.txt
 
-### 3️⃣ Configurar o Banco de Dados (opcional)
+### 3 Configurar o Banco de Dados (opcional)
 
 Crie a tabela HISTORICO_OPERACOES no seu banco de dados Oracle:
 
@@ -118,13 +118,20 @@ CREATE TABLE HISTORICO_OPERACOES (
 );
 
 
-Crie o arquivo config.py na raiz do projeto (não envie ao GitHub):
+### 4 Crie o arquivo config.py na raiz do projeto:
+Na raiz do projeto, crie um arquivo chamado config.py. Este arquivo não será enviado para o GitHub e conterá suas credenciais de acesso. Utilize o arquivo `config_example.py` como modelo.
 
-ORACLE_USER = "seu_rm_aqui"
-ORACLE_PASSWORD = "sua_senha_aqui"
+config.py:
+```python
+ORACLE_USER = "rm12345"
+ORACLE_PASSWORD = "sua_senha_secreta"
 
-### 4️⃣ Executar o programa
+
+### 5 Executar o programa:
+
+```python
 python src/app.py
+```
 
 ## 🗃️ Persistência de Dados
 - `data/simulacoes.json`: histórico das simulações (JSON com `indent=2`)
