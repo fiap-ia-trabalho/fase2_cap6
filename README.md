@@ -83,17 +83,13 @@ onde o **Tempo de Ciclo** inclui:
 ## 🧩 Estrutura de Pastas
 .
 ├── src/
-│ ├── app.py
-│ └── repository/
-│ ├── mock_repo.py
-│ └── oracle_repo.py
+│   └── app.py
 ├── data/
-│ ├── simulacoes.json
-│ └── relatorio.txt
-├── config.py # (local, ignorado no Git)
-├── requirements.txt
+│   ├── simulacoes.json
+│   └── relatorio.txt
 ├── README.md
-└── .gitignore
+├── .gitignore
+└── requirements.txt
 
 ---
 
@@ -101,8 +97,7 @@ onde o **Tempo de Ciclo** inclui:
 Para rodar este projeto, siga os passos abaixo.
 
 ### 1️⃣ Clonar o repositório
-```bash
-git clone https://github.com/fiap-ia-trabalho/fase2_cap6
+git clone https://github.com/fiap-ia-trabalho/fase2_cap6.git
 cd fase2_cap6
 
 ### 2️⃣ Instalar dependências (opcional, se Oracle for usado)
@@ -128,18 +123,12 @@ Crie o arquivo config.py na raiz do projeto (não envie ao GitHub):
 ORACLE_USER = "seu_rm_aqui"
 ORACLE_PASSWORD = "sua_senha_aqui"
 
-
-⚠️ O arquivo config.py contém credenciais locais e não deve ser versionado.
-Certifique-se de que ele está listado no .gitignore.
-
 ### 4️⃣ Executar o programa
 python src/app.py
 
-🗃️ Persistência de Dados
-
-data/simulacoes.json: salva todas as simulações em formato JSON (indent=2)
-
-data/relatorio.txt: relatório de operações legível em texto
+## 🗃️ Persistência de Dados
+- `data/simulacoes.json`: histórico das simulações (JSON com `indent=2`)
+- `data/relatorio.txt`: relatório legível em texto
 
 ---
 
