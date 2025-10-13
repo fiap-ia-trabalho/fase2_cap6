@@ -5,27 +5,40 @@
 
 # Projeto AgroSync: Otimizador de Colheita de Cana-de-Açúcar
 
-## Projeto acadêmico para a disciplina de Python da FIAP, focado em resolver um problema de logística no agronegócio da cana-de-Açúcar.
-
 ## 👨‍🎓 Integrantes:
 
-- <a href="https://www.linkedin.com/company/inova-fusca">CAUAN_OTTO_RODRIGUES_SOUSA_RM567940</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">FERNANDO_ARAUJO_GURGEL_RM567606</a>
+- <a href="https://www.linkedin.com/in/cauanotto">CAUAN_OTTO_RODRIGUES_SOUSA_RM567940</a>
+- <a href="https://www.linkedin.com/in/fernando-gurgel-75aa8369">FERNANDO_ARAUJO_GURGEL_RM567606</a>
 - <a href="https://www.linkedin.com/in/iraci-souza-bab42034">IRACI_MONTEIRO_SOUZA_RM567544</a> 
 - <a href="https://www.linkedin.com/company/inova-fusca">MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">RAFAELA_TORRES_MARTINS_RM567735</a>
+- <a href="https://www.linkedin.com/in/rafaela-torres222">RAFAELA_TORRES_MARTINS_RM567735</a>
 
 ## 👩‍🏫 Professores:
 ### Tutor(a)
 - <a href="https://www.linkedin.com/company/inova-fusca">ANA_CRISTINA_DOS_SANTOS</a>
 
 ### Coordenador(a)
-- <a href="https://www.linkedin.com/in/andregodoichiovato)">Andre_Godoi</a>
+- <a href="https://www.linkedin.com/in/andregodoichiovato)">ANDRE_GODOI</a>
 
 ## 📜 Descrição
-O agronegócio da cana-de-açúcar no Brasil enfrenta perdas significativas durante a colheita mecanizada. Um dos principais problemas é a falta de sincronia entre as colheitadeiras e os caminhões de transporte.
+Projeto acadêmico para a disciplina de Python da FIAP, focado em resolver um problema de logística no agronegócio da cana-de-Açúcar.
+O agronegócio da cana-de-açúcar no Brasil enfrenta **perdas significativas durante a colheita mecanizada**.  
+Um dos principais desafios é a **falta de sincronia entre as colheitadeiras e os caminhões de transporte**, o que gera:
 
-Este projeto visa resolver essa "dor" através de um software simples que calcula e sugere o número ideal de caminhões para uma frente de colheita, minimizando o tempo ocioso das máquinas e reduzindo perdas operacionais.
+- **Tempo ocioso das colheitadeiras**, que ficam paradas aguardando caminhões;  
+- **Filas de caminhões**, quando há veículos em excesso;  
+- **Aumento de custos operacionais e perdas de produtividade**.
+
+## 💡 Proposta de Solução
+
+O **AgroSync** é um software simples em **Python** que **calcula e sugere o número ideal de caminhões** para uma frente de colheita, considerando:
+
+- quantidade de colheitadeiras ativas;  
+- distância média entre campo e usina;  
+- velocidade média dos caminhões;  
+- tempo de descarga e carregamento.
+
+A aplicação foi construída para demonstrar os conceitos de **funções**, **estruturas de dados**, **persistência em arquivos (texto e JSON)** e **integração opcional com Oracle**.
 
 ### 🛠️ Tecnologias Utilizadas
 + Linguagem: Python 3
