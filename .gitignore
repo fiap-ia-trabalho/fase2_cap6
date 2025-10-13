@@ -3,7 +3,6 @@ config.py
 __pycache__
 
 # Diretórios de cache e arquivos temporários
-__pycache__/
 *.pyc
 
 # Variáveis de ambiente e credenciais locais
