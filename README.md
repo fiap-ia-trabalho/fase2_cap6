@@ -108,6 +108,7 @@ Para rodar este projeto, siga os passos abaixo.
 git clone https://github.com/fiap-ia-trabalho/fase2_cap6
 cd fase2_cap6
 
+
 *2. Instale as dependências:*
 O projeto precisa da biblioteca do Oracle para Python.
 
