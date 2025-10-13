@@ -74,26 +74,45 @@ onde o **Tempo de Ciclo** inclui:
 
 ---
 
-### 🛠️ Tecnologias Utilizadas
-+ Linguagem: Python 3
-+ Banco de Dados: Oracle
-+ Biblioteca Python: oracledb
+### 💻 Requisitos de Ambiente
+- Python 3.10 ou superior  
+- (Opcional) Biblioteca `oracledb` (`pip install oracledb`)  
+- Sistema operacional Windows, macOS ou Linux  
+
+## 🧩 Estrutura de Pastas
+.
+├── src/
+│   ├── app.py
+│   └── repository/
+│       ├── mock_repo.py
+│       └── oracle_repo.py
+├── data/
+│   ├── simulacoes.json
+│   └── relatorio.txt
+├── config.py         # (local, ignorado no Git)
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+## 🗃️ Persistência de Dados
+- `data/simulacoes.json`: salva todas as simulações em formato JSON (`indent=2`)
+- `data/relatorio.txt`: relatório de operações legível em texto
+
+---
 
 ## 🔧 Como executar o código
 Para rodar este projeto, siga os passos abaixo.
 
-*1. Clone o repositório:*
-
-``` python
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-```
+*1. **Clonar o repositório**
+```bash
+git clone https://github.com/fiap-ia-trabalho/fase2_cap6
+cd fase2_cap6
 
 *2. Instale as dependências:*
 O projeto precisa da biblioteca do Oracle para Python.
 
 ```python
-pip install oracledb
+pip install -r requirements.txt
 ```
 
 *3. Configure o Banco de Dados:*
@@ -123,7 +142,7 @@ ORACLE_PASSWORD = "sua_senha_aqui"
 *5. Execute o programa:*
 
 ```python
-python main.py
+python src/app.py
 ```
 ## 📋 Licença
 MODELO GIT FIAP por Fiap está licenciado sobre Attribution 4.0 International.
