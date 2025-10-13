@@ -20,6 +20,8 @@
 ### Coordenador(a)
 - <a href="https://www.linkedin.com/in/andregodoichiovato)">ANDRE_GODOI</a>
 
+---
+
 ## 📜 Descrição
 Projeto acadêmico para a disciplina de Python da FIAP, focado em resolver um problema de logística no agronegócio da cana-de-Açúcar.
 O agronegócio da cana-de-açúcar no Brasil enfrenta **perdas significativas durante a colheita mecanizada**.  
@@ -28,6 +30,8 @@ Um dos principais desafios é a **falta de sincronia entre as colheitadeiras e o
 - **Tempo ocioso das colheitadeiras**, que ficam paradas aguardando caminhões;  
 - **Filas de caminhões**, quando há veículos em excesso;  
 - **Aumento de custos operacionais e perdas de produtividade**.
+
+---
 
 ## 💡 Proposta de Solução
 
@@ -38,13 +42,41 @@ O **AgroSync** é um software simples em **Python** que **calcula e sugere o nú
 - velocidade média dos caminhões;  
 - tempo de descarga e carregamento.
 
-A aplicação foi construída para demonstrar os conceitos de **funções**, **estruturas de dados**, **persistência em arquivos (texto e JSON)** e **integração opcional com Oracle**.
+A aplicação foi construída para demonstrar os conceitos de **funções**, **estruturas de dados**, **persistência em arquivos (texto e JSON)** e **integração com Oracle**.
+
+---
+
+## ✅ Requisitos Atendidos 
+
+| Conceito | Implementação |
+|-----------|----------------|
+| **Funções e parâmetros** | `calcular_caminhoes_ideais()`, `simular_frente_colheita()` com passagem de parâmetros numéricos e default |
+| **Estruturas de dados** | Uso de `tupla` (constantes de produtividade), `dicionário` para parâmetros de cada simulação e `lista de dicionários` (“tabela de memória”) para armazenar resultados |
+| **Manipulação de arquivos** | Geração de relatório `.txt` e persistência de dados `.json` com `indent=2` |
+| **Conexão com Oracle** | Camada `OracleRepository` (stub) prevista, substituível por `MockRepository` |
+| **Problema real do agro** | Baseado na logística da cana-de-açúcar e na sincronização colheita-transporte |
+
+---
+
+## 🧠 Lógica de Negócio Simplificada
+
+O sistema estima o número ideal de caminhões a partir de:
+
+\[
+\text{Caminhões Ideais} = \frac{\text{Tempo de Ciclo Total do Caminhão}}{\text{Tempo de Carregamento da Colheitadeira}} \times \text{Nº de Colheitadeiras}
+\]
+
+onde o **Tempo de Ciclo** inclui:
+- tempo de carregamento,
+- deslocamento até a usina,
+- descarga,
+- retorno ao campo.
+
+---
 
 ### 🛠️ Tecnologias Utilizadas
 + Linguagem: Python 3
-
 + Banco de Dados: Oracle
-
 + Biblioteca Python: oracledb
 
 ## 🔧 Como executar o código
