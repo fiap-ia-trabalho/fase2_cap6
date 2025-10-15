@@ -3,7 +3,7 @@ import sys
 
 # === Importação das Credenciais ===
 try:
-    from config import ORACLE_USER, ORACLE_PASSWORD
+    from .config import ORACLE_USER, ORACLE_PASSWORD
 except ImportError:
     print("\nERRO: Arquivo 'config.py' não encontrado.")
     print("Por favor, crie o arquivo 'config.py' com suas credenciais ORACLE_USER e ORACLE_PASSWORD.")

@@ -3,110 +3,82 @@
 <img src="./assets/logo-fiap.png" alt="Logo da FIAP" width="400"/>
 </div>
 
+
 # Projeto AgroSync: Otimizador de Colheita de Cana-de-Açúcar
 
-## 👨‍🎓 Integrantes:
 
-- <a href="https://www.linkedin.com/in/cauanotto">CAUAN_OTTO_RODRIGUES_SOUSA_RM567940</a>
-- <a href="https://www.linkedin.com/in/fernando-gurgel-75aa8369">FERNANDO_ARAUJO_GURGEL_RM567606</a>
-- <a href="https://www.linkedin.com/in/iraci-souza-bab42034">IRACI_MONTEIRO_SOUZA_RM567544</a> 
-- <a href="https://www.linkedin.com/in/malu-rodrigues-bb756b271">MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659</a> 
-- <a href="https://www.linkedin.com/in/rafaela-torres222">RAFAELA_TORRES_MARTINS_RM567735</a>
+## Projeto acadêmico para a disciplina de Python da FIAP, focado em resolver um problema de logística no agronegócio da cana-de-Açúcar.
+
+
+## 👨‍🎓 Integrantes:
++ CAUAN_OTTO_RODRIGUES_SOUSA_RM567940
+
+
++ FERNANDO_ARAUJO_GURGEL_RM567606
+
+
++ IRACI_MONTEIRO_SOUZA_RM567544
+
+
++ MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659
+
+
++ RAFAELA_TORRES_MARTINS_RM567735
+
 
 ## 👩‍🏫 Professores:
-**Tutor(a):** [ANA CRISTINA DOS SANTOS](https://www.linkedin.com/company/inova-fusca)  
-**Coordenador(a):** [ANDRÉ GODOI](https://www.linkedin.com/in/andregodoichiovato)
+### Tutor(a)
++ Nome do Tutor: ANA CRISTINA DOS SANTOS
 
----
+
+### Coordenador(a)
++ Nome do Coordenador: ANDRÉ GODOI
+
 
 ## 📜 Descrição
+O agronegócio da cana-de-açúcar no Brasil enfrenta perdas significativas durante a colheita mecanizada. Um dos principais problemas é a falta de sincronia entre as colheitadeiras e os caminhões de transporte.
 
-Projeto acadêmico para a disciplina **Python e Além** da FIAP, focado em resolver um problema real de logística no **agronegócio da cana-de-açúcar**.
 
-O agronegócio da cana-de-açúcar no Brasil enfrenta **perdas significativas durante a colheita mecanizada**.  
-Um dos principais desafios é a **falta de sincronia entre as colheitadeiras e os caminhões de transporte**, o que gera:
+Este projeto visa resolver essa "dor" através de um software simples que calcula e sugere o número ideal de caminhões para uma frente de colheita, minimizando o tempo ocioso das máquinas e reduzindo perdas operacionais.
 
-- **Tempo ocioso das colheitadeiras**, que ficam paradas aguardando caminhões;  
-- **Filas de caminhões**, quando há veículos em excesso;  
-- **Aumento de custos operacionais e perdas de produtividade**.
 
----
+### 🛠️ Tecnologias Utilizadas
++ Linguagem: Python 3
 
-## 💡 Proposta de Solução
 
-O **AgroSync** é um software simples em **Python** que **calcula e sugere o número ideal de caminhões** para uma frente de colheita, considerando:
++ Banco de Dados: Oracle
 
-- quantidade de colheitadeiras ativas;  
-- distância média entre campo e usina;  
-- velocidade média dos caminhões;  
-- tempo de descarga e carregamento.
 
-A aplicação foi construída para demonstrar os conceitos de **funções**, **estruturas de dados**, **persistência em arquivos (texto e JSON)** e **integração com Oracle**.
++ Biblioteca Python: oracledb
 
----
-
-## ✅ Requisitos Atendidos 
-
-| Conceito | Implementação |
-|-----------|----------------|
-| **Funções e parâmetros** | `calcular_caminhoes_ideais()`, `simular_frente_colheita()` com passagem de parâmetros numéricos e default |
-| **Estruturas de dados** | Uso de `tupla` (constantes de produtividade), `dicionário` para parâmetros de cada simulação e `lista de dicionários` (“tabela de memória”) para armazenar resultados |
-| **Manipulação de arquivos** | Geração de relatório `.txt` e persistência de dados `.json` com `indent=2` |
-| **Conexão com Oracle** | Camada `OracleRepository` (stub) prevista, substituível por `MockRepository` |
-| **Problema real do agro** | Baseado na logística da cana-de-açúcar e na sincronização colheita-transporte |
-
----
-
-## 🧠 Lógica de Negócio Simplificada
-
-O sistema estima o número ideal de caminhões a partir de:
-
-\[
-\text{Caminhões Ideais} = \frac{\text{Tempo de Ciclo Total do Caminhão}}{\text{Tempo de Carregamento da Colheitadeira}} \times \text{Nº de Colheitadeiras}
-\]
-
-onde o **Tempo de Ciclo** inclui:
-- tempo de carregamento,
-- deslocamento até a usina,
-- descarga,
-- retorno ao campo.
-
----
-
-### 💻 Requisitos de Ambiente
-- Python 3.10 ou superior  
-- (Opcional) Biblioteca `oracledb` (`pip install oracledb`)  
-- Sistema operacional Windows, macOS ou Linux
-
----  
-
-## 🧩 Estrutura de Pastas
-.
-├── src/
-│   └── app.py
-├── data/
-│   ├── simulacoes.json
-│   └── relatorio.txt
-├── README.md
-├── .gitignore
-└── requirements.txt
-
----
 
 ## 🔧 Como executar o código
 Para rodar este projeto, siga os passos abaixo.
 
-### 1 Clonar o repositório
-git clone https://github.com/fiap-ia-trabalho/fase2_cap6.git
-cd fase2_cap6
 
-### 2 Instalar dependências (opcional, se Oracle for usado)
-pip install -r requirements.txt
+*1. Clone o repositório:*
 
-### 3 Configurar o Banco de Dados (opcional)
 
-Crie a tabela HISTORICO_OPERACOES no seu banco de dados Oracle:
+``` python
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
 
+
+*2. Instale as dependências:*
+O projeto precisa da biblioteca do Oracle para Python.
+
+
+```python
+pip install oracledb
+```
+
+
+*3. Configure o Banco de Dados:*
+Crie a tabela HISTORICO_OPERACOES no seu banco de dados Oracle usando o script abaixo:
+
+
+```SQL
 CREATE TABLE HISTORICO_OPERACOES (
     ID_OPERACAO NUMBER GENERATED BY DEFAULT ON NULL AS IDENTITY PRIMARY KEY,
     DATA_OPERACAO DATE,
@@ -116,48 +88,31 @@ CREATE TABLE HISTORICO_OPERACOES (
     NUM_CAMINHOES_RECOMENDADOS NUMBER,
     TEMPO_CICLO_MIN NUMBER
 );
+````
 
 
-### 4 Crie o arquivo config.py na raiz do projeto:
-Na raiz do projeto, crie um arquivo chamado config.py. Este arquivo não será enviado para o GitHub e conterá suas credenciais de acesso. Utilize o arquivo `config_example.py` como modelo.
+*4. Crie o arquivo de configuração:*
+Na pasta 'src', crie um arquivo chamado 'config.py'. Este arquivo não será enviado para o GitHub e conterá suas credenciais de acesso.
+
 
 config.py:
 ```python
-ORACLE_USER = "rm12345"
-ORACLE_PASSWORD = "sua_senha_secreta"
-
-
-### 5 Executar o programa:
-
-```python
-python src/app.py
+ORACLE_USER = "seu_rm_aqui"
+ORACLE_PASSWORD = "sua_senha_aqui"
 ```
 
-## 🗃️ Persistência de Dados
-- `data/simulacoes.json`: histórico das simulações (JSON com `indent=2`)
-- `data/relatorio.txt`: relatório legível em texto
 
----
+*5. Execute o programa:*
 
-## 📊 Exemplo de Saída
-=== AgroSync ===
-Colheitadeiras: 4
-Distância (km): 8
-Velocidade (km/h): 35
-Descarga (min): 10
+No terminal, a partir da pasta principal do projeto, execute o seguinte comando:
 
-🚜 Caminhões ideais sugeridos: 10
-✅ Simulação salva em simulacoes.json
-
----
-
-## 🧰 Tecnologias Utilizadas
-
-. Linguagem: Python 3
-. Banco de Dados (opcional): Oracle
-. Bibliotecas: oracledb, json, os, datetime, typing
-
+```python
+python -m src.app
+```
 ## 📋 Licença
+MODELO GIT FIAP por Fiap está licenciado sobre Attribution 4.0 International.
 
-MODELO GIT FIAP por FIAP está licenciado sob Attribution 4.0 International (CC BY 4.0).
+
+
+
 
