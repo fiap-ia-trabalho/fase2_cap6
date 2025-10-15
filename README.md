@@ -11,29 +11,15 @@
 
 
 ## 👨‍🎓 Integrantes:
-+ CAUAN_OTTO_RODRIGUES_SOUSA_RM567940
-
-
-+ FERNANDO_ARAUJO_GURGEL_RM567606
-
-
-+ IRACI_MONTEIRO_SOUZA_RM567544
-
-
-+ MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659
-
-
-+ RAFAELA_TORRES_MARTINS_RM567735
-
+- <a href="https://www.linkedin.com/in/cauanotto">CAUAN_OTTO_RODRIGUES_SOUSA_RM567940</a>
+- <a href="https://www.linkedin.com/in/fernando-gurgel-75aa8369">FERNANDO_ARAUJO_GURGEL_RM567606</a>
+- <a href="https://www.linkedin.com/in/iraci-souza-bab42034">IRACI_MONTEIRO_SOUZA_RM567544</a> 
+- <a href="https://www.linkedin.com/in/malu-rodrigues-bb756b271">MARIA_LUISA_RODRIGUES_NASCIMENTO_RM567659</a> 
+- <a href="https://www.linkedin.com/in/rafaela-torres222">RAFAELA_TORRES_MARTINS_RM567735</a>
 
 ## 👩‍🏫 Professores:
-### Tutor(a)
-+ Nome do Tutor: ANA CRISTINA DOS SANTOS
-
-
-### Coordenador(a)
-+ Nome do Coordenador: ANDRÉ GODOI
-
+**Tutor(a):** [ANA CRISTINA DOS SANTOS](https://www.linkedin.com/company/inova-fusca)  
+**Coordenador(a):** [ANDRÉ GODOI](https://www.linkedin.com/in/andregodoichiovato)
 
 ## 📜 Descrição
 O agronegócio da cana-de-açúcar no Brasil enfrenta perdas significativas durante a colheita mecanizada. Um dos principais problemas é a falta de sincronia entre as colheitadeiras e os caminhões de transporte.
