@@ -1,0 +1,16 @@
+{
+    "data_hora": "2025-10-15 16:07:12",
+    "talhao_selecionado": {
+        "id": "TALHAO-A",
+        "nome": "Fazenda Chão Quebrado",
+        "distancia_usina": 2.0
+    },
+    "parametros_simulacao": {
+        "num_colheitadeiras": 1,
+        "velocidade_media_caminhao_kmh": 60.0
+    },
+    "resultado": {
+        "tempo_ciclo_minutos": 24.0,
+        "caminhoes_recomendados": 1
+    }
+}

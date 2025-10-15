@@ -189,6 +189,7 @@ def simular_operacao():
             }
         }
         salvar_relatorio_json(dados_plano)
+        salvar_relatorio_txt(dados_plano)
         salvar_no_banco(dados_plano)
 
 # --- FUNÇÕES DE ARQUIVO E BANCO DE DADOS ---
@@ -205,6 +206,35 @@ def salvar_relatorio_json(dados):
         json.dump(dados, f, indent=4, ensure_ascii=False)
     
     print(f"Plano salvo com sucesso em '{nome_arquivo}'")
+
+def salvar_relatorio_txt(dados):
+    """Salva um resumo do dicionário de dados em um arquivo de texto."""
+    if not os.path.exists('relatorios'):
+        os.makedirs('relatorios')
+    
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    nome_arquivo = f"relatorios/resumo_{timestamp}.txt"
+
+    talhao = dados['talhao_selecionado']
+    resultado = dados['resultado']
+    
+    conteudo = (
+        f"--- Resumo da Operação AgroSync ---\n"
+        f"Data e Hora: {dados['data_hora']}\n"
+        f"-----------------------------------------\n"
+        f"Talhão: {talhao['nome']}\n"
+        f"Distância: {talhao['distancia_usina']} km\n"
+        f"-----------------------------------------\n"
+        f"RECOMENDAÇÃO:\n"
+        f"Caminhões Ideais: {resultado['caminhoes_recomendados']}\n"
+        f"Tempo de Ciclo: {resultado['tempo_ciclo_minutos']} minutos\n"
+        f"-----------------------------------------\n"
+    )
+
+    with open(nome_arquivo, 'w', encoding='utf-8') as f:
+        f.write(conteudo)
+    
+    print(f"Resumo salvo com sucesso em '{nome_arquivo}'")
 
 def salvar_no_banco(dados):
     """Salva um resumo do plano no banco de dados Oracle."""
@@ -362,4 +392,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

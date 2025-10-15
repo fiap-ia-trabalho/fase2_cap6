@@ -1,0 +1,10 @@
+--- Resumo da Operação AgroSync ---
+Data e Hora: 2025-10-15 16:25:34
+-----------------------------------------
+Talhão: Fazendo Otto
+Distância: 1.0 km
+-----------------------------------------
+RECOMENDAÇÃO:
+Caminhões Ideais: 1
+Tempo de Ciclo: 22.4 minutos
+-----------------------------------------

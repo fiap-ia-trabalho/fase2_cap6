@@ -1,0 +1,16 @@
+{
+    "data_hora": "2025-10-15 16:25:34",
+    "talhao_selecionado": {
+        "id": "TALHAO-05",
+        "nome": "Fazendo Otto",
+        "distancia_usina": 1.0
+    },
+    "parametros_simulacao": {
+        "num_colheitadeiras": 2,
+        "velocidade_media_caminhao_kmh": 50.0
+    },
+    "resultado": {
+        "tempo_ciclo_minutos": 22.4,
+        "caminhoes_recomendados": 1
+    }
+}

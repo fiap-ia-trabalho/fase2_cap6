@@ -1,0 +1,16 @@
+{
+    "data_hora": "2025-10-15 16:17:50",
+    "talhao_selecionado": {
+        "id": "TALHAO-J",
+        "nome": "Sítio do João",
+        "distancia_usina": 1.0
+    },
+    "parametros_simulacao": {
+        "num_colheitadeiras": 2,
+        "velocidade_media_caminhao_kmh": 40.0
+    },
+    "resultado": {
+        "tempo_ciclo_minutos": 23.0,
+        "caminhoes_recomendados": 1
+    }
+}
