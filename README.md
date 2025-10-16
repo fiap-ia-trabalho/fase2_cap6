@@ -37,6 +37,28 @@ Este projeto visa resolver essa "dor" através de um software simples que calcul
 
 + Biblioteca Python: oracledb
 
+## Estrutura de Pastas
+fase_2_cap_6_python_e_alem/    
+│
+├── .git/      (oculto)              
+│
+├── assets/                   
+│   └── logo-fiap.png         
+│
+├── relatorios/             
+│   ├── plano_20251015...json 
+│   └── resumo_20251015...txt  
+│
+├── src/                      
+│   ├── _init_.py           
+│   ├── app.py              
+│   ├── config.py      (ignorado)       
+│   └── database.py         
+│
+├── .gitignore                
+├── README.md                 
+└── requirements.txt
+
 
 ## 🔧 Como executar o código
 Para rodar este projeto, siga os passos abaixo.
