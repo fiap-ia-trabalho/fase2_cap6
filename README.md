@@ -38,27 +38,30 @@ Este projeto visa resolver essa "dor" através de um software simples que calcul
 + Biblioteca Python: oracledb
 
 ## Estrutura de Pastas
+## 🗂 Estrutura do Projeto
+
+```
 fase_2_cap_6_python_e_alem/    
 │
-├── .git/      (oculto)              
+├── .git/                      # Repositório Git (oculto)              
 │
-├── assets/                   
-│   └── logo-fiap.png         
+├── assets/                    # Recursos visuais e estáticos
+│   └── logo-fiap.png          
 │
-├── relatorios/             
-│   ├── plano_20251015...json 
-│   └── resumo_20251015...txt  
+├── relatorios/                # Relatórios e saídas do projeto
+│   ├── plano_20251015.json 
+│   └── resumo_20251015.txt  
 │
-├── src/                      
-│   ├── _init_.py           
-│   ├── app.py              
-│   ├── config.py      (ignorado)       
-│   └── database.py         
+├── src/                       # Código-fonte principal
+│   ├── __init__.py           
+│   ├── app.py                 
+│   ├── config.py              # (ignorado pelo Git)
+│   └── database.py            
 │
-├── .gitignore                
-├── README.md                 
-└── requirements.txt
-
+├── .gitignore                 # Arquivos/pastas ignorados pelo Git
+├── README.md                  # Documentação do projeto
+└── requirements.txt           # Dependências do Python
+```
 
 ## 🔧 Como executar o código
 Para rodar este projeto, siga os passos abaixo.
