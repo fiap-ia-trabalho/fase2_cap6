@@ -43,24 +43,24 @@ Este projeto visa resolver essa "dor" através de um software simples que calcul
 ```
 fase_2_cap_6_python_e_alem/    
 │
-├── .git/                      # Repositório Git (oculto)              
+├── .git/                                 
 │
-├── assets/                    # Recursos visuais e estáticos
+├── assets/                    
 │   └── logo-fiap.png          
 │
-├── relatorios/                # Relatórios e saídas do projeto
+├── relatorios/                
 │   ├── plano_20251015.json 
 │   └── resumo_20251015.txt  
 │
-├── src/                       # Código-fonte principal
+├── src/                       
 │   ├── __init__.py           
 │   ├── app.py                 
-│   ├── config.py              # (ignorado pelo Git)
+│   ├── config.py              
 │   └── database.py            
 │
-├── .gitignore                 # Arquivos/pastas ignorados pelo Git
-├── README.md                  # Documentação do projeto
-└── requirements.txt           # Dependências do Python
+├── .gitignore                
+├── README.md                 
+└── requirements.txt           
 ```
 
 ## 🔧 Como executar o código
