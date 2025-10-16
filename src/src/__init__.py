@@ -1,1 +1,0 @@
-# Ficheiro que "oficializa" a pasta src como um pacote de código
